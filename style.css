@@ -1,0 +1,175 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.orbitron{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html{
+    background-color: rgb(32, 32, 109);
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+}
+
+.page{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.col1{
+    margin-right: 5rem;
+    box-sizing: border-box;
+}
+.col2{
+    box-sizing: border-box;
+}
+.btns{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.scoreBg{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 9rem;
+    height: 8rem;
+}
+p{
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(158, 49, 73);
+    font-size: 5rem;
+}
+
+button{
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-color: white;
+    border-width: 0.09rem;
+    border-radius: 0.3rem;
+    background: none;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+}
+
+#goBack{
+    border-color: white;
+    border-width: 0.09rem;
+    border-radius: 0.3rem;
+    position: absolute;
+    align-self: center;
+    
+}
+
+@media screen and (max-width: 760px) and (orientation: portrait) {
+    .page{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .col1{
+        margin-right: 5rem;
+        box-sizing: border-box;
+    }
+    .col2{
+        box-sizing: border-box;
+    }
+    .btns{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    h1{
+        text-align: center;
+        color: white;
+    }
+    
+    .scoreBg{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        width: 8rem;
+        height: 7rem;
+    }
+    p{
+        box-sizing: border-box;
+        text-align: center;
+        color: rgb(158, 49, 73);
+        font-size: 5rem;
+    }
+    
+    button{
+        box-sizing: border-box;
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        border-color: white;
+        border-width: 0.09rem;
+        border-radius: 0.3rem;
+        background: none;
+        color: white;
+        width: 2rem;
+        height: 2rem;
+        text-align: center;
+    }
+    
+    #goBack{
+        border-color: white;
+        border-width: 0.09rem;
+        border-radius: 0.3rem;
+        position: absolute;
+        align-self: center;
+        
+    }
+}

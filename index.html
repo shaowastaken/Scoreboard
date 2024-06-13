@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>Sport Scoreboard</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="col1">
+        <h1 class="orbitron">HOME</h1>
+        <div class="scoreBg">
+          <p class="score orbitron" id="home">0</p>
+        </div>
+        <div class="btns">
+          <button onclick="addH(1)">+1</button>
+          <button onclick="addH(2)">+2</button>
+          <button onclick="addH(3)">+3</button>
+        </div>
+      </div>
+      <div class="col2">
+        <h1 class="orbitron">GUEST</h1>
+        <div class="scoreBg">
+          <p class="score orbitron" id="guest">0</p>
+        </div>
+
+        <div class="btns">
+          <button onclick="addG(1)">+1</button>
+          <button onclick="addG(2)">+2</button>
+          <button onclick="addG(3)">+3</button>
+        </div>
+      </div>
+      <button id="goBack" onclick="revert()">
+        <i
+          id=""
+          class="fa-solid fa-clock-rotate-left"
+          style="color: #ffffff"
+        ></i>
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
